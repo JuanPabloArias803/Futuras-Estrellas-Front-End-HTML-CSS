@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FUTURAS ESTRELLAS</title>
+    <link rel="shortcut icon" href="img/fslogo.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="css/form_reclutador.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <header>
+        <section class="textos-header">
+            <h1>Registro reclutadores</h1>
+            
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <main>
+        
+        <form action="/my-handling-form-page" method="post">
+			<ul>
+				<li>
+					<label for="name">Nombres y Apellidos</label>
+					<input type="text" id="name" name="user_name" />
+				</li>
+                <li>
+                    <label for="tipo:documento">Tipo de Documento</label>
+                    <h1 style="color:#FFFF;"></h1>
+                    <select name="tipo_documento">
+                        <option value="value1" selected>Cedula de Ciudadania</option>
+                        <option value="value2">Cedula de Extranjeria</option>
+                      </select>
+                </li>
+                <li>
+                    <label for="numero_documento">Número de Documento</label>
+                    <input type="number" min="0">
+                </li>
+                <li>
+                    <label for="equipo">Equipo o Institución</label>
+                    <input type="text" id="equipo">
+                </li>
+				<li>
+					<label for="mail">Email</label>
+					<input type="email" id="email" name="email" />
+				</li>
+                <li>
+                    <label for="nueva_contraseña">Nueva Contraseña</label>
+					<input type="password" id="passw" name="passw" />
+                </li>
+                <li>
+                    <label for="numero_contacto">Número de Contacto</label>
+                    <input type="number" min="0">
+                </li>
+                <li>
+                    <label for="carta">Carta Directivas</label>
+                    <input type="file" name="archivosubido">
+                </li>
+				<li class="button">
+					<button type="submit">Continuar</button>
+				</li>
+			</ul>
+		</form>
+
+       
+
+    </main>
+
+</body>
+<footer><h4 style="color:rgb(0, 0, 0); margin-bottom: 40px; text-align: right;">todas las imagenes son tomadas de unsplash.com</h4></footer>
+</html>

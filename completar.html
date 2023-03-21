@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FUTURAS ESTRELLAS</title>
+    <link rel="shortcut icon" href="img/fslogo.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="css/completar.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <section class="textos-header">
+            <h1>Hola (nombre de usuario)</h1>
+            <h2>Para completar tu registro debes completar tu perfil.</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <main>
+
+        <div class="iniciar-sesion">
+           <h2>Sube una foto de perfil.</h2> 
+        </div>
+        <form action="/my-handling-form-page" method="post">
+			<ul>
+                <li>
+                    <label for="foto_perfil">Foto de perfil:</label>
+                    <input type="file" name="archivosubido">
+                </li>
+			</ul>
+		</form>
+        
+        <div class="otros_archivos">
+            <h2>Sube otras fotos o videos que quieres que los reclutadores vean.</h2> 
+         </div>
+         <form action="/my-handling-form-page" method="post">
+             <ul>
+                 <li>
+                     <label for="archivo1">Archivo:</label>
+                     <input type="file" name="archivosubido">
+                 </li>
+                 <li>
+                    <label for="archivo2">Archivo:</label>
+                    <input type="file" name="archivosubido">
+                </li>
+                <li>
+                    <label for="archivo3">Archivo:</label>
+                    <input type="file" name="archivosubido">
+                </li>
+                <li>
+                    <label for="archivo4">Archivo:</label>
+                    <input type="file" name="archivosubido">
+                </li>
+                <li>
+                    <label for="archivo5">Archivo:</label>
+                    <input type="file" name="archivosubido">
+                </li>
+                 <li class="button">
+                     <button type="submit">Continuar</button>
+                 </li>
+             </ul>
+         </form>
+    </main>
+
+</body>
+<footer><h4 style="color:rgb(0, 0, 0); margin-bottom: 40px; text-align: right;">todas las imagenes son tomadas de unsplash.com</h4></footer>
+</html>

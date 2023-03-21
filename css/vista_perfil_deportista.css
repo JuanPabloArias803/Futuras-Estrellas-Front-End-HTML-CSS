@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+}
+
+
+header {
+    width: 100%;
+    height: 600px;
+    background: #ffffff;
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 100%, 0.459), hsla(143, 45%, 52%, 0.664)), url(../img/perfil_deportista.jpg);
+    background: linear-gradient(to right, hsla(0, 0%, 100%, 0.459), hsla(143, 45%, 52%, 0.664)), url(../img/perfil_deportista.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+}
+
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+main 
+
+
+.publicaciones h2{
+    color: #2a732e;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.datos h3{
+    color: #2a732e;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+img {
+    margin-left: 60px;
+}
+
+
+@media screen and (max-width:500px){
+
+
+    .textos-header h1{
+        font-size: 35px;
+    }
+
+    .textos-header h2{
+        font-size: 20px;
+    }
+
+   
+}
